@@ -1,13 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
 
 body {
+  --color-background: white;
+  --color-main: #6B4E90;
+  --color-main-hovered: #321456;
+  --color-rmv-btn: #D46A6A;
+  --color-rmv-btn-hovered: #801515;
+  --color-text: black;
+}
+
+
+body.dark {
   --color-background: #282c34;
-  --color-main: darkslateblue;
-  --color-main-hovered: #6454be;
-  --color-rmv-btn: indianred;
-  --color-rmv-btn-hovered: #ff7474;
+  --color-main: #4C2D73;
+  --color-main-hovered: #6B4E90;
+  --color-rmv-btn: #801515;
+  --color-rmv-btn-hovered: #D46A6A;
   --color-text: white;
 }
+
+
 
 body {
   margin: 0;

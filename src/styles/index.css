@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+body {
+  --color-background: #282c34;
+  --color-main: darkslateblue;
+  --color-main-hovered: #6454be;
+  --color-rmv-btn: indianred;
+  --color-rmv-btn-hovered: #ff7474;
+  --color-text: white;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

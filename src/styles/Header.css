@@ -1,0 +1,20 @@
+.header-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.theme-switch {
+    margin-left: 1em;
+    height: 2em;
+    width: 2em;
+    font-size: 1em;
+    background-color: var(--color-main);
+    border: 0;
+    border-radius: 100%;
+}
+
+.theme-switch:hover {
+    background-color: var(--color-main-hovered);
+}

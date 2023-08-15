@@ -31,7 +31,6 @@ input[type=text]:hover, input[type=text]:focus{
     background-color: var(--color-main);
     color: white;
 
-
 }
 .add-btn:hover {
     background-color: var(--color-main-hovered);
